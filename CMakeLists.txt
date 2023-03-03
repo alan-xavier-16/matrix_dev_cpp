@@ -15,5 +15,6 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++20 -Wall -Wextra -Wpedantic")
 
 # Define Target
 add_executable(matmul
-  src/matrix.hpp
-  src/matrix.cpp)
+  src/main.cpp
+  src/Matrix.h
+  src/Matrix.cpp)
